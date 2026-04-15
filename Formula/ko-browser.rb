@@ -1,10 +1,10 @@
 class KoBrowser < Formula
   desc "A fast, token-efficient browser for AI agents"
   homepage "https://github.com/libi/ko-browser"
-  url "https://github.com/libi/ko-browser/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "f0bd8ca45bf7c3d61642c03afeecce222b3dfe4469d413235c848dbcdb2848f0"
+  url "https://github.com/libi/ko-browser/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "dc5f42a1fc29d23c25409540cfa4676b97fcacdf221a33a3f7860714acf43749"
   license "MIT"
-  version "0.1.2"
+  version "0.1.3"
   head "https://github.com/libi/ko-browser.git", branch: "main"
 
   depends_on "go" => :build
